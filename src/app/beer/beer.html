@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h1 class="text-center">Beer list</h1>
+    </div>
+    <div class="col-md-2">
+        <input class="pull-right" type="text" placeholder="Search..." ng-model="searchText">
+    </div>
+</div>
+<div class="row">
+    <table class="table">
+        <tr>
+            <th>Company Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Status</th>
+        </tr>
+        <tr ng-repeat="companyInfo in vm.responseData | filter:searchText">
+            <td class="{{companyInfo.company.red_yellow_green}}">{{companyInfo.company.company_name}}</td>
+            <td>{{companyInfo.company.address}}</td>
+            <td>{{companyInfo.company.city}}</td>
+            <td>{{companyInfo.company.state}}</td>
+            <td>{{companyInfo.company.country}}</td>
+            <td>{{companyInfo.company.status}}</td>
+        </tr>
+    </table>
+</div>
