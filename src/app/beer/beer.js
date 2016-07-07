@@ -3,8 +3,9 @@
 
     angular
         .module('paringandhiInfo')
-        .controller('BeerController', function MainController($http, $log) {
+        .controller('BeerController', function ($http, $log, $rootScope) {
             var vm = this;
+            $rootScope.projectName = "beer";
 
             NProgress.start();
             $http.get("assets/beer.json")
