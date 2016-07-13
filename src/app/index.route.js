@@ -22,6 +22,11 @@
         controller: 'BeerController',
         controllerAs: 'vm'
       })
+    .when('/movies', {
+        templateUrl: 'app/movies/movies.html',
+        controller: 'MoviesController',
+        controllerAs: 'vm'
+      })
       .otherwise({
         redirectTo: '/'
       });
