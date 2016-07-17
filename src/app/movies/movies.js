@@ -7,6 +7,7 @@
         .module('paringandhiInfo')
         .controller('MoviesController', function ($http, $log, $rootScope, $timeout) {
             $rootScope.projectName = "movies";
+            $rootScope.fontName = "Galada";
             var vm = this;
 
             // This function wil call the API with the name of the searched movie and return the response data

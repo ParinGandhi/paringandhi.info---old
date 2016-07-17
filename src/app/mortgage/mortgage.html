@@ -1,0 +1,64 @@
+<br>
+<br>
+<div class="container">
+   <div class="row">
+        <div class="col-md-2">
+            <label for="loanAmount" class="pull-right">Loan Amount:</label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" type="text" id="loanAmount" ng-model="vm.loanAmount">
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+            <p>Monthly Payments: {{vm.monthlyPayment | currency}}</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            <label for="interest" class="pull-right">Annual Interest:</label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" type="text" id="interest" ng-model="vm.interest">
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+            <p>Total paid back: {{vm.totalPayment | currency}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <label for="term" class="pull-right">Term (Years):</label>
+        </div>
+        <div class="col-md-2">
+            <input class="form-control" type="text" id="term" ng-model="vm.term">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <button type="submit" class="btn btn-primary col-md-offset-2" ng-click="vm.calculate()">Calculate</button>
+        <button type="submit" class="btn btn-primary" ng-click="vm.calculate()">Clear</button>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div id="chartdiv" style="width: auto; height: 400px;"></div>
+    </div>
+    <br><br>
+    <table class="table" ng-show="vm.showTable">
+        <tr>
+            <th>Payment</th>
+            <th>Amount</th>
+            <th>Principle</th>
+            <th>Interest</th>
+            <th>Ramaining Balance</th>
+        </tr>
+        <tr ng-repeat="eachPayment in vm.tableInfo">
+            <td>{{eachPayment.payment}}</td>
+            <td>{{vm.monthlyPayment | currency}}</td>
+            <td>{{eachPayment.principle | currency}}</td>
+            <td>{{eachPayment.interest | currency}}</td>
+            <td>{{eachPayment.remainingBalance | currency}}</td>
+        </tr>
+    </table>
+
+</div>

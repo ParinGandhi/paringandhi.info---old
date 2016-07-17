@@ -27,6 +27,11 @@
         controller: 'MoviesController',
         controllerAs: 'vm'
       })
+    .when('/mortgage', {
+        templateUrl: 'app/mortgage/mortgage.html',
+        controller: 'MortgageController',
+        controllerAs: 'vm'
+      })
       .otherwise({
         redirectTo: '/'
       });
