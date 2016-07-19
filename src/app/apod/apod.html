@@ -1,0 +1,14 @@
+<div class="row">
+    <h2 class="text-center">{{vm.apodInfo.title}}</h2>
+    <h4 class="text-center">{{vm.apodInfo.date | date}}</h4>
+</div>
+<br>
+<div class="row">
+    <a href="{{vm.apodInfo.hdurl}}" target="_blank"><img src="{{vm.apodInfo.url}}" alt="{{vm.apodInfo.title}}"></a>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <p>{{vm.apodInfo.explanation}}</p>
+    </div>
+</div>

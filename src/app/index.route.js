@@ -32,6 +32,11 @@
         controller: 'MortgageController',
         controllerAs: 'vm'
       })
+    .when('/apod', {
+        templateUrl: 'app/apod/apod.html',
+        controller: 'APODController',
+        controllerAs: 'vm'
+      })
       .otherwise({
         redirectTo: '/'
       });
