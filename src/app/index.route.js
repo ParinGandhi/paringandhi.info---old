@@ -37,6 +37,11 @@
         controller: 'APODController',
         controllerAs: 'vm'
       })
+    .when('/music', {
+        templateUrl: 'app/music/music.html',
+        controller: 'MusicController',
+        controllerAs: 'vm'
+    })
       .otherwise({
         redirectTo: '/'
       });

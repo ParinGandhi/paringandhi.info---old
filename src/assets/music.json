@@ -1,0 +1,62 @@
+[
+{
+"artist" : "Calvin Harris",
+"title" : "This Is What We Came For",
+"source" : "assets/music/Calvin Harris - This Is What You Came For.mp3",
+"cover" : "assets/images/music/Calvin Harris - This Is What You Came For.jpg"
+},
+{
+"artist" : "Calvin Harris ft. Desciples",
+"title" : "How Deep Is Your Love",
+"source" : "assets/music/Calvin Harris ft. Desciples - How Deep Is Your Love.mp3",
+"cover" : "assets/images/music/Calvin Harris ft. Desciples - How Deep Is Your Love.jpg"
+},
+{
+"artist" : "Chainsmokers",
+"title" : "Let Me Down",
+"source" : "assets/music/Chainsmokers of The - Let Me Down.mp3",
+"cover" : "assets/images/music/Chainsmokers of The - Let Me Down.jpg"
+},
+{
+"artist" : "Charlie Puth ft. Selena Gomez",
+"title" : "We Don't Talk Anymore",
+"source" : "assets/music/Charlie Puth - We Don't Talk Anymore.mp3",
+"cover" : "assets/images/music/Charlie Puth - We Dont Talk Anymore.jpg"
+},
+{
+"artist" : "Daya",
+"title" : "Hide Away",
+"source" : "assets/music/Daya - Hide Away.mp3",
+"cover" : "assets/images/music/Daya - Hide Away.jpg"
+},
+{
+"artist" : "Drake ft. Wizkid & Kyla",
+"title" : "One Dance",
+"source" : "assets/music/Drake ft. Wizkid & Kyla - One Dance.mp3",
+"cover" : "assets/images/music/Drake - One Dance.jpg"
+},
+{
+"artist" : "Ellie Goulding",
+"title" : "On My Mind",
+"source" : "assets/music/Ellie Goulding - On My Mind.mp3",
+"cover" : "assets/images/music/Ellie Goulding - On My Mind.png"
+},
+{
+"artist" : "Fifth Harmony ft. Kid Ink",
+"title" : "Worth It",
+"source" : "assets/music/Fifth Harmony ft. Kid Ink - Worth It.mp3",
+"cover" : "assets/images/music/Fifth Harmony - Worth It.png"
+},
+{
+"artist" : "Fifth Harmony ft. Ty Dolla $ign",
+"title" : "Work From Home",
+"source" : "assets/music/Fifth Harmony ft. Ty Dolla $ign - Work From Home.mp3",
+"cover" : "assets/images/music/Fifth Harmony - Work From Home.jpg"
+},
+{
+"artist" : "Twenty One Pilots",
+"title" : "Ride",
+"source" : "assets/music/Twenty One Pilots - Ride.mp3",
+"cover" : "assets/images/music/Twenty One Pilots - Ride.jpg"
+}
+]
